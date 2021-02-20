@@ -1,4 +1,4 @@
-baseurl = "https://example.org/"
+baseurl = "https://ika020202.github.io/ikeoPort/"
 languageCode = "ja-jp"
 title = "Strata"
 theme = "hugo-strata-theme"
@@ -136,4 +136,3 @@ paginate = 10
 	name = "Home"
 	url  = "/"
 	weight = 10
-
