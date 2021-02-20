@@ -1,0 +1,9 @@
+{{ define "main" }}
+	{{ if not .Site.Params.about.hide }}
+		{{ partial "about" . }}
+	{{ end }}
+
+	{{ if not .Site.Params.portfolio.hide }}
+		{{ partial "portfolio" . }}
+	{{ end }}
+{{ end }}
